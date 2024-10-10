@@ -24,3 +24,7 @@ The **Text Translator** is a web application built with React, designed to provi
 - **Tailwind CSS**: A utility-first CSS framework for styling.
 - **Axios**: A promise-based HTTP client for API calls.
 - **Text-Translator API**: A reliable API for language translation.
+
+## Live Demo
+
+- Click here for live demo : [Here](https://praveen-text-translator-react.netlify.app/)

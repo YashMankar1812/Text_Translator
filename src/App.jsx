@@ -43,11 +43,18 @@ const App = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-400 to-purple-500 p-4">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-300 to-[#37a18d]">
       <div className="bg-white p-8 rounded-lg shadow-lg max-w-[70vw] w-full">
-        <h1 className="text-3xl font-bold text-[#442c56e9] text-center mb-6">
-          Universal Translator
-        </h1>
+        <div className="">
+          <img
+            src="https://cdn-icons-png.freepik.com/512/179/179413.png"
+            alt="logo"
+            className="w-10 h-10"
+          />
+          <h1 className="text-3xl font-bold text-[#6f498b] text-center mb-6">
+            Universal Translator
+          </h1>
+        </div>
         <div className="flex justify-between gap-8">
           <div className="w-1/2">
             <LanguageSelector
@@ -80,7 +87,7 @@ const App = () => {
         </div>
         <button
           onClick={handleTranslate}
-          className="bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 w-full transition-transform transform hover:scale-105 active:scale-100"
+          className="bg-[#37a18d] text-white py-2 px-4 rounded-lg hover:bg-[#2b7e6f] w-full transition-transform transform hover:scale-105 active:scale-100"
         >
           Translate
         </button>
