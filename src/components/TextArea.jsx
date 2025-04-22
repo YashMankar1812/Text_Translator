@@ -1,17 +1,18 @@
 import React from "react";
 
-const TextArea = ({ label, value, onChange }) => {
+const TextArea = ({ value, onChange, placeholder, readOnly, autoFocus }) => {
   return (
-    <div className="mb-4">
-      <label className="block text-sm font-bold mb-2">{label}</label>
-      <textarea
-        value={value}
-        onChange={onChange}
-        placeholder="Enter text to translate..."
-        rows="4"
-        className="border-2 border-gray-300 rounded-lg p-2 w-full focus:outline-none focus:border-blue-500"
-      />
-    </div>
+    <textarea
+      value={value}
+      onChange={onChange}
+      placeholder={placeholder}
+      readOnly={readOnly}
+      autoFocus={autoFocus}
+      rows="6"
+      className={`w-full px-3 py-2 border ${
+        readOnly ? "bg-gray-50" : "bg-white"
+      } border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-800`}
+    />
   );
 };
 

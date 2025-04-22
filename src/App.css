@@ -1,5 +1,39 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  /* text-align: center; */
+/* Add these custom styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+textarea {
+  resize: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+button {
+  transition: background-color 0.2s, transform 0.1s, box-shadow 0.2s;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
 }
