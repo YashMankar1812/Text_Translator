@@ -27,4 +27,4 @@ The **Text Translator** is a web application built with React, designed to provi
 
 ## Live Demo
 
-- Click here for live demo : [Here](https://praveen-text-translator-react.netlify.app/)
+- Click here for live demo : [Here](https://text-translator-mu-nine.vercel.app/)
